@@ -65,6 +65,8 @@ To meet the requirements for the Frontend Software Engineer role at Atlassian, y
 
 This will help you match the required skills for the role at Atlassian and excel in a frontend development environment.
 
+# ROADMAP_Atlassian_Frontend-Software-Engineer_preperation
+
 Here’s a detailed roadmap for mastering the skills needed to become a Frontend Software Engineer at Atlassian, focusing on JavaScript, modern frontend frameworks (primarily React), testing, tooling, and best practices. I'll break it down into phases to help you progress efficiently.
 
 ### **Phase 1: Core Frontend Technologies (2-3 months)**
