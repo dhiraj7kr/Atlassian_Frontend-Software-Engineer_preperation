@@ -1,1 +1,115 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f5;
+  color: #333;
+  padding: 40px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Section Styling */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.code-block {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+  background-color: #282c34;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+button.copy-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.copy-btn:hover {
+  background-color: #45a049;
+}
+
+button.copy-btn:active {
+  background-color: #38703d;
+}
+
+/* Layouts for Box Model, Flexbox, and Grid */
+.box {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: 5px solid #333;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.flex-item {
+  flex: 1;
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+}
 
