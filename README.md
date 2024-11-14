@@ -67,6 +67,146 @@ This will help you match the required skills for the role at Atlassian and excel
 
 # ROADMAP_Atlassian_Frontend-Software-Engineer_preperation
 
+Here's a **tree roadmap** of the topics you need to learn to become a Frontend Software Engineer. Each branch represents a key skill area, and sub-branches show the specific topics and resources within each area.
+
+```
+Frontend Software Engineer Roadmap
+├── 1. Core Frontend Technologies
+│   ├── JavaScript (ES6+)
+│   │   ├── Variables (let, const, var)
+│   │   ├── Functions (Arrow functions, Regular functions)
+│   │   ├── Asynchronous JS (Callbacks, Promises, async/await)
+│   │   ├── ES6 Features (Spread, Rest, Destructuring)
+│   │   ├── Modules (import/export)
+│   │   ├── DOM Manipulation
+│   │   └── Event Handling
+│   ├── HTML5
+│   │   ├── Semantic HTML (header, footer, article, etc.)
+│   │   ├── Forms, Validation, Accessibility
+│   │   ├── Multimedia (audio, video, canvas)
+│   │   └── HTML5 APIs (Geolocation, localStorage, etc.)
+│   └── CSS
+│       ├── Box Model (padding, margins, borders)
+│       ├── Flexbox
+│       ├── CSS Grid
+│       ├── Responsive Design (Media Queries)
+│       ├── CSS Preprocessors (SASS, LESS)
+│       └── CSS Variables & Custom Properties
+│
+├── 2. Modern JavaScript Frameworks
+│   ├── React
+│   │   ├── JSX
+│   │   ├── Components (Functional, Class-based)
+│   │   ├── State and Props
+│   │   ├── Hooks (useState, useEffect, useContext, etc.)
+│   │   ├── Component Lifecycle Methods
+│   │   ├── React Router (Routing)
+│   │   ├── Context API (State management)
+│   │   └── Redux (State management)
+│   ├── Angular
+│   │   ├── Components
+│   │   ├── Directives
+│   │   ├── Services & Dependency Injection
+│   │   ├── Angular Router
+│   │   ├── RxJS (Reactive Programming)
+│   │   └── Angular Forms
+│   └── Vue
+│       ├── Vue Components
+│       ├── Directives
+│       ├── Vue Router
+│       ├── Vuex (State management)
+│       └── Vue CLI & Tooling
+│
+├── 3. Frontend Tooling & Ecosystem
+│   ├── Webpack & Bundling
+│   │   ├── Webpack Configuration (Loaders, Plugins)
+│   │   ├── Code Splitting
+│   │   ├── Tree Shaking
+│   │   ├── Minification & Compression
+│   │   └── Alternative Bundlers (Parcel, Vite)
+│   ├── Version Control
+│   │   ├── Git Basics (Commits, Branching, Merging)
+│   │   ├── GitHub (Pull Requests, Issues, CI/CD)
+│   │   └── Advanced Git (Rebase, Cherry-pick)
+│   └── CI/CD Tools
+│       ├── Jenkins
+│       ├── GitHub Actions
+│       ├── CircleCI
+│       └── Travis CI
+│
+├── 4. Testing & Quality Assurance
+│   ├── Unit Testing
+│   │   ├── Jest (Setup, Testing Functions, Mocking)
+│   │   └── Mocha/Chai (Assertions, Test Suites)
+│   ├── Integration Testing
+│   │   ├── Testing React Components (with Enzyme or React Testing Library)
+│   │   ├── Testing Redux
+│   │   └── Mocking APIs
+│   ├── End-to-End Testing
+│   │   ├── Cypress (Setup, Writing Tests)
+│   │   └── Selenium/WebDriver
+│   └── Test-Driven Development (TDD)
+│       ├── Writing Tests First
+│       ├── Refactoring with Tests
+│       └── Continuous Testing
+│
+├── 5. Software Development Practices
+│   ├── Agile Methodologies
+│   │   ├── Scrum (Sprints, Scrum Master, Product Backlog)
+│   │   ├── Kanban (Boards, Workflow, Limit WIP)
+│   │   └── User Stories & Acceptance Criteria
+│   ├── Code Reviews & Collaboration
+│   │   ├── Reviewing Code (Best Practices)
+│   │   ├── Pair Programming
+│   │   └── Collaboration Tools (Slack, Jira)
+│   └── Clean Code & Design Patterns
+│       ├── Writing Maintainable Code
+│       ├── SOLID Principles
+│       └── Common Design Patterns (MVC, Singleton, Factory)
+│
+├── 6. Performance Optimization
+│   ├── Lazy Loading
+│   ├── Code Splitting
+│   ├── Memoization
+│   ├── Reducing Re-renders (React.memo, useMemo, useCallback)
+│   └── Asset Optimization (Image Compression, CSS Minification)
+│
+├── 7. Cloud & Deployment (Optional)
+│   ├── Cloud Platforms (AWS, GCP, Azure)
+│   ├── Deploying Web Applications
+│   │   ├── Netlify
+│   │   └── Vercel
+│   └── Serverless Architecture
+│
+└── 8. Soft Skills & Communication
+    ├── Remote Team Collaboration
+    ├── Asynchronous Communication (Slack, Email)
+    ├── Mentoring & Code Reviews
+    └── Time Management (for Remote Teams)
+```
+
+### How to Use This Roadmap
+
+1. **Start from the Root**: Begin with **Core Frontend Technologies** (JavaScript, HTML, CSS) as they are fundamental to every frontend role. Mastering these will give you a solid foundation for any framework or tool you encounter.
+   
+2. **Dive Deeper into Frameworks**: After mastering the basics, focus on **React** (or another framework of your choice). React is widely used in industry, so it's a good starting point. Once comfortable with React, explore other frameworks (Vue, Angular) to understand different paradigms.
+
+3. **Tooling & Ecosystem**: Learning tools like **Webpack**, **Git**, and **CI/CD** is essential for production-ready applications. Understanding these will help you integrate with teams and workflows that use modern development practices.
+
+4. **Testing**: Testing is crucial in ensuring your code is robust and maintainable. Start with **unit testing** in Jest, and then move to **integration testing** and **end-to-end testing** with Cypress or Selenium.
+
+5. **Agile Practices**: Understanding **Agile** is important for collaborating effectively in modern software teams. Familiarize yourself with Scrum, Kanban, and user story management.
+
+6. **Performance Optimization**: As you advance, make sure to dive into **performance optimization** techniques like **lazy loading** and **code splitting** to improve the user experience.
+
+7. **Cloud & Deployment**: Although optional for a frontend role, familiarity with **cloud platforms** and deployment tools like **Netlify** and **Vercel** will be valuable, especially if you work with full-stack or serverless environments.
+
+8. **Soft Skills**: Don’t forget to improve your **communication** skills, especially if you’re working in a **remote team**. Good collaboration and mentoring skills are key to success in the long term.
+
+---
+
+This tree structure provides a clear, structured way to approach learning each key topic in the frontend software development field, from foundational concepts to advanced practices.
+
 Here’s a detailed roadmap for mastering the skills needed to become a Frontend Software Engineer at Atlassian, focusing on JavaScript, modern frontend frameworks (primarily React), testing, tooling, and best practices. I'll break it down into phases to help you progress efficiently.
 
 ### **Phase 1: Core Frontend Technologies (2-3 months)**
