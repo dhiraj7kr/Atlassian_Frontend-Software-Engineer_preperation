@@ -279,3 +279,182 @@ Here’s a detailed roadmap for mastering the skills needed to become a Frontend
 ---
 
 By following this roadmap, you'll be well-prepared to apply for a Frontend Software Engineer role at Atlassian. The key is to keep building, testing, and improving your knowledge while learning from real-world experience.
+
+# RESOURCE_Atlassian_Frontend-Software-Engineer_preperation
+
+To help you build the necessary skills for a **Frontend Software Engineer** role at Atlassian (or a similar company), here's a curated list of some of the **best resources** available online for each key area of learning:
+
+### **1. JavaScript (ES6+)**
+
+- **Books**:
+  - **"You Don’t Know JS" (book series) by Kyle Simpson**  
+    This series covers deep JavaScript topics, including ES6 and beyond, and is highly recommended for understanding the core language. It's available for free on GitHub.
+    - [You Don’t Know JS (GitHub)](https://github.com/getify/You-Dont-Know-JS)
+  - **"JavaScript: The Good Parts" by Douglas Crockford**  
+    A classic book that helps you understand the "best" parts of JavaScript and avoids the pitfalls.
+  
+- **Online Resources**:
+  - **MDN Web Docs (JavaScript)**  
+    Comprehensive and up-to-date documentation with examples for all JavaScript features.
+    - [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+  - **JavaScript.info**  
+    This website is a well-structured resource for learning modern JavaScript from the basics to advanced topics.
+    - [JavaScript.info](https://javascript.info/)
+
+- **Interactive Learning**:
+  - **Codecademy - Learn JavaScript**  
+    A hands-on approach to learning JavaScript that starts from the basics and goes to advanced concepts like closures, async programming, and more.
+    - [Codecademy - JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
+  - **Exercism - JavaScript Track**  
+    Offers practice exercises and mentoring to improve your JavaScript skills.
+    - [Exercism JavaScript](https://exercism.io/tracks/javascript)
+
+---
+
+### **2. HTML5 & CSS**
+
+- **Books**:
+  - **"HTML and CSS: Design and Build Websites" by Jon Duckett**  
+    A beginner-friendly and visually rich book that explains HTML5 and CSS thoroughly.
+  - **"CSS: The Definitive Guide" by Eric A. Meyer**  
+    An in-depth guide that goes into advanced CSS concepts such as Flexbox, Grid, and responsive design.
+
+- **Online Resources**:
+  - **MDN Web Docs (HTML/CSS)**  
+    The best resource for understanding web standards for HTML5 and CSS.
+    - [MDN HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - **CSS Tricks**  
+    Offers tutorials, tips, and tricks, especially for advanced CSS techniques like Flexbox and Grid.
+    - [CSS Tricks](https://css-tricks.com/)
+  - **Flexbox Froggy and Grid Garden**  
+    Interactive games that help you learn Flexbox and CSS Grid in a fun way.
+    - [Flexbox Froggy](https://flexboxfroggy.com/)
+    - [Grid Garden](https://cssgridgarden.com/)
+
+- **Courses**:
+  - **FreeCodeCamp - Responsive Web Design Certification**  
+    This free curriculum covers HTML5, CSS, and advanced CSS techniques for building responsive websites.
+    - [FreeCodeCamp](https://www.freecodecamp.org/)
+  - **CSS Mastery (book)** by Andy Budd
+
+---
+
+### **3. React**
+
+- **Books**:
+  - **"Learning React" by Alex Banks and Eve Porcello**  
+    A great book to get started with React and understand its core principles.
+  - **"The Road to React" by Robin Wieruch**  
+    Free to read online and provides a practical approach to learning React through building projects.
+    - [The Road to React](https://www.roadtoreact.com/)
+
+- **Online Resources**:
+  - **React Official Docs**  
+    The best source for learning React from its creators. It covers everything from basic components to advanced patterns like Hooks, Context API, and more.
+    - [React Docs](https://reactjs.org/docs/getting-started.html)
+  - **Egghead.io - React Essentials**  
+    High-quality video tutorials from industry experts that cover React fundamentals.
+    - [Egghead.io React](https://egghead.io/courses/the-beginner-s-guide-to-react)
+  - **Codecademy - Learn React**  
+    Interactive tutorials that cover React concepts, JSX, components, hooks, and more.
+    - [Codecademy - React](https://www.codecademy.com/learn/react-101)
+  - **Scrimba - Learn React for Free**  
+    This free course allows you to code directly in the browser and receive instant feedback.
+    - [Scrimba React Course](https://scrimba.com/learn/learnreact)
+
+- **Videos**:
+  - **"React Explained" by Tyler McGinnis**  
+    A well-structured course to learn React, particularly useful for developers who like to understand how things work behind the scenes.
+    - [React Explained](https://ui.dev/react/)
+
+---
+
+### **4. Modern Frontend Tooling (Webpack, Babel, etc.)**
+
+- **Books**:
+  - **"SurviveJS - Webpack" by Juho Vepsäläinen**  
+    A great resource for learning how to configure Webpack for real-world projects.
+    - [SurviveJS - Webpack](https://survivejs.com/webpack/)
+  
+- **Online Resources**:
+  - **Webpack Docs**  
+    The official Webpack documentation provides a comprehensive guide to configuring Webpack.
+    - [Webpack Docs](https://webpack.js.org/)
+  - **Vite** (Fast and modern alternative to Webpack)
+    - [Vite Docs](https://vitejs.dev/)
+
+- **Interactive Learning**:
+  - **Frontend Masters**  
+    Offers high-quality courses on Webpack, Babel, and other essential frontend tools.
+    - [Frontend Masters](https://frontendmasters.com/)
+
+---
+
+### **5. Testing in JavaScript (Jest, Cypress, etc.)**
+
+- **Books**:
+  - **"Testing JavaScript Applications" by Lucas da Costa**  
+    A fantastic book for understanding how to test JavaScript applications effectively with tools like Jest and Cypress.
+  
+- **Online Resources**:
+  - **Jest Documentation**  
+    Learn how to write unit tests with Jest, the most popular testing framework for React.
+    - [Jest Docs](https://jestjs.io/docs/en/getting-started)
+  - **Cypress Documentation**  
+    Learn how to write end-to-end tests with Cypress, an easy-to-use testing framework for web apps.
+    - [Cypress Docs](https://www.cypress.io/docs/)
+  - **Mocha and Chai Documentation**  
+    Mocha for testing and Chai for assertions. Mocha is another great testing tool.
+    - [Mocha Docs](https://mochajs.org/)
+    - [Chai Docs](https://www.chaijs.com/)
+
+- **Courses**:
+  - **"Test-Driven Development with JavaScript" by Christian Johansen**  
+    This book offers a deep dive into TDD with JavaScript.
+  
+- **Interactive Learning**:
+  - **Codecademy - Unit Testing with Jest**  
+    Learn Jest and how to write tests for your code with this hands-on course.
+    - [Codecademy - Testing](https://www.codecademy.com/learn/learn-jest)
+
+---
+
+### **6. Git, GitHub, & CI/CD**
+
+- **Online Resources**:
+  - **Git Documentation**  
+    Official Git documentation for all commands and advanced workflows.
+    - [Git Docs](https://git-scm.com/doc)
+  - **Pro Git (Free Book)** by Scott Chacon and Ben Straub  
+    A free, comprehensive guide to mastering Git.
+    - [Pro Git](https://git-scm.com/book/en/v2)
+
+- **Courses**:
+  - **"Git and GitHub" by freeCodeCamp**  
+    Learn Git and GitHub through tutorials and hands-on practice.
+    - [FreeCodeCamp GitHub](https://www.freecodecamp.org/news/git-and-github-for-beginners/)
+
+---
+
+### **7. Agile Methodologies & Collaboration**
+
+- **Books**:
+  - **"Scrum: The Art of Doing Twice the Work in Half the Time" by Jeff Sutherland**  
+    A comprehensive guide to understanding Scrum methodology.
+  - **"The Phoenix Project" by Gene Kim**  
+    A fictionalized guide to understanding DevOps and Agile workflows.
+
+- **Online Resources**:
+  - **Scrum Training Series**  
+    Offers free training materials and certifications for learning Scrum.
+    - [Scrum Training](https://www.scrumtrainingseries.com/)
+  
+- **Courses**:
+  - **Agile Development on Coursera**  
+    Coursera offers courses on Agile methodologies from top universities and institutions.
+    - [Coursera - Agile](https://www.coursera.org/learn/agile-development)
+
+---
+
+By following these resources, you’ll not only gain the technical skills required for a Frontend Software Engineer role but also understand the best practices, tools, and methodologies that companies like Atlassian use in their development workflows.
