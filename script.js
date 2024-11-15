@@ -1,23 +1,6 @@
-function copyCode() {
-    // Get the text from the code block
-    const codeBlock = event.target.previousElementSibling;
-    const text = codeBlock.innerText;
+const open = document.getElementById("open");
+const close = document.getElementById("close");
+const container = document.querySelector(".container");
 
-    // Create a temporary textarea element to copy the text
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    document.body.appendChild(textarea);
-
-    // Select the text and copy it to clipboard
-    textarea.select();
-    document.execCommand('copy');
-
-    // Remove the temporary textarea
-    document.body.removeChild(textarea);
-
-    // Provide feedback to the user
-    event.target.textContent = 'Copied!';
-    setTimeout(() => {
-        event.target.textContent = 'Copy Code';
-    }, 2000);
-}
+open.addEventListener("click", () => container.classList.add("show-nav"));
+close.addEventListener("click", () => container.classList.remove("show-nav"));
