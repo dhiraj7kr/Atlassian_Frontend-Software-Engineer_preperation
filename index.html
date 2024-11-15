@@ -1,107 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Atlassian Frontend Engineer Preparation</title>
+    <title>Frontend software engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Atlassian Frontend Software Engineer Preparation</h1>
-        <p class="description">A guide to mastering the core skills for the Atlassian Frontend Engineer role.</p>
-    </header>
-
-    <main>
-        <section class="content">
-            <article>
-                <h2>1. Core Frontend Technologies</h2>
-                <p>This includes proficiency in JavaScript (ES6+), HTML5, and modern CSS techniques.</p>
-                <div class="code-section">
-                    <h3>Example: JavaScript Arrow Function</h3>
-                    <pre><code class="code-block">
-const greet = name => `Hello, ${name}!`;
-console.log(greet('Atlassian'));
-                    </code></pre>
-                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
-                </div>
-
-                <div class="code-section">
-                    <h3>Example: CSS Flexbox</h3>
-                    <pre><code class="code-block">
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.item {
-  margin: 10px;
-  padding: 20px;
-}
-                    </code></pre>
-                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
-                </div>
-            </article>
-
-            <article>
-                <h2>2. Modern JavaScript Frameworks</h2>
-                <p>React is the focus, but familiarity with other frameworks like Angular or Vue is beneficial.</p>
-                <div class="code-section">
-                    <h3>Example: React Component</h3>
-                    <pre><code class="code-block">
-import React, { useState } from 'react';
-
-function Counter() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>{count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-    </div>
-  );
-}
-                    </code></pre>
-                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
-                </div>
-            </article>
-
-            <article>
-                <h2>3. Frontend Ecosystem</h2>
-                <p>Learn bundlers like Webpack, linters like ESLint, and testing frameworks like Jest and Cypress.</p>
-            </article>
-
-            <article>
-                <h2>4. Frontend Architecture</h2>
-                <p>Focus on component-based design and performance optimizations like lazy loading and code splitting.</p>
-            </article>
-
-            <article>
-                <h2>5. Software Engineering Practices</h2>
-                <p>Familiarize yourself with Agile methodologies, CI/CD pipelines, and code reviews.</p>
-            </article>
-
-            <article>
-                <h2>6. Collaboration and Communication</h2>
-                <p>Effective communication with designers, managers, and engineers is crucial in a remote setting.</p>
-            </article>
-
-            <article>
-                <h2>7. Soft Skills and Mindset</h2>
-                <p>Focus on problem-solving, attention to detail, and writing maintainable code for the long term.</p>
-            </article>
-        </section>
-    </main>
-
-    <footer>
-        <p>Created by Your Name &copy; 2024</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <div class="container">
+        <div class="circle-container">
+          <div class="circle">
+            <button id="close">
+              <i class="fas fa-times"></i>
+            </button>
+            <button id="open">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <div class="content">
+          <h1>Atlassian Frontend Software Engineer Preparation</h1>
+          <small>Dhiraj Kumar</small>
+          <p>
+            To meet the requirements for the Frontend Software Engineer role at Atlassian, you'll need to develop proficiency in various key areas of frontend development. This includes mastering modern JavaScript, working with popular frontend frameworks, optimizing performance, and understanding key software engineering practices. Below is a breakdown of the essential skills you'll need to excel in the role.
+          </p>
+      
+          <h2>1. Core Frontend Technologies</h2>
+          <p>To build a strong foundation, you'll need to be proficient in the following core frontend technologies:</p>
+          <ul>
+            <li><strong>JavaScript (ES6+):</strong> Strong understanding of modern JavaScript features such as:
+              <ul>
+                <li>Arrow functions</li>
+                <li>Destructuring</li>
+                <li>Template literals</li>
+                <li>Promises and async/await</li>
+                <li>Modules (import/export)</li>
+                <li>Spread/rest operators</li>
+              </ul>
+            </li>
+            <li><strong>HTML5:</strong> Solid grasp of HTML5 semantics, structure, and accessibility standards.</li>
+            <li><strong>CSS:</strong> Proficient in modern CSS, including Flexbox, Grid, and responsiveness. Experience with CSS preprocessors like SASS or LESS would be a plus.</li>
+          </ul>
+      
+          <h2>2. Modern JavaScript Frameworks</h2>
+          <p>Atlassian emphasizes the use of modern JavaScript frameworks. Key areas include:</p>
+          <ul>
+            <li><strong>React:</strong> Strong experience with React, including:
+              <ul>
+                <li>Components, hooks, context, and state management</li>
+                <li>JSX syntax and virtual DOM</li>
+                <li>Component lifecycle methods and effects</li>
+                <li>React Router for routing, Redux or React Context for state management</li>
+              </ul>
+            </li>
+            <li><strong>Alternatives:</strong> Familiarity with AngularJS, Vue, or similar modern JS frameworks would also be beneficial.</li>
+          </ul>
+      
+          <h2>3. Frontend Ecosystem</h2>
+          <p>Understanding the broader frontend ecosystem is essential for optimizing performance and ensuring code quality:</p>
+          <ul>
+            <li><strong>Bundling:</strong> Understand bundlers like Webpack, Vite, or Parcel for optimization.</li>
+            <li><strong>Linting:</strong> Use of linters like ESLint to enforce coding standards.</li>
+            <li><strong>Testing:</strong> Experience with testing frameworks like Jest, Cypress, Mocha, or Chai. Write unit tests, integration tests, and E2E tests.</li>
+            <li><strong>Version Control:</strong> Proficiency in Git for version control and collaboration.</li>
+          </ul>
+      
+          <h2>4. Frontend Architecture</h2>
+          <p>Building maintainable, scalable, and efficient applications is crucial:</p>
+          <ul>
+            <li><strong>Component-based Architecture:</strong> Experience with reusable, maintainable components.</li>
+            <li><strong>State Management:</strong> Familiarity with both local and global state management (e.g., Redux, React Context, MobX).</li>
+            <li><strong>Performance Optimization:</strong> Techniques like lazy loading, memoization, code splitting, and minimizing re-renders.</li>
+            <li><strong>Security:</strong> Understanding security practices such as XSS, CSRF, and secure data handling.</li>
+          </ul>
+      
+          <h2>5. Software Engineering Practices</h2>
+          <p>Atlassian places a strong emphasis on sound software engineering practices, including:</p>
+          <ul>
+            <li><strong>Agile Methodologies:</strong> Familiarity with Agile practices, including Scrum and Kanban. Tools like Jira for issue tracking.</li>
+            <li><strong>Code Reviews:</strong> Active participation in code reviews to maintain high-quality code through collaboration.</li>
+            <li><strong>Continuous Integration/Continuous Delivery (CI/CD):</strong> Understanding of automating deployments and testing pipelines.</li>
+          </ul>
+      
+          <h2>6. Collaboration and Communication</h2>
+          <p>Strong communication skills are key for collaborating effectively with teams:</p>
+          <ul>
+            <li><strong>Collaboration with Designers & Managers:</strong> Ability to translate user needs and feature requirements into code.</li>
+            <li><strong>Mentoring:</strong> Guiding junior engineers and sharing best practices in development.</li>
+          </ul>
+      
+          <h2>7. Soft Skills and Mindset</h2>
+          <p>In addition to technical skills, Atlassian values certain soft skills and mindsets:</p>
+          <ul>
+            <li><strong>Problem-solving:</strong> The ability to analyze problems and find effective solutions.</li>
+            <li><strong>Attention to Detail:</strong> Ensuring high-quality and scalable code.</li>
+            <li><strong>Long-term Code Quality:</strong> Writing maintainable, performant, and scalable code for the long run.</li>
+            <li><strong>Remote Collaboration:</strong> Effective asynchronous communication in a remote work environment.</li>
+          </ul>
+      
+          <h2>Optional, But Helpful</h2>
+          <ul>
+            <li><strong>Cloud Development:</strong> Familiarity with cloud platforms (e.g., AWS, GCP).</li>
+            <li><strong>CI/CD Tools:</strong> Experience with Jenkins, GitHub Actions, or CircleCI.</li>
+            <li><strong>Design Systems:</strong> Exposure to design systems like Atlassian’s or Material UI for consistent UI development.</li>
+          </ul>
+      
+          <h2>Key Learning Steps</h2>
+          <p>Here’s a roadmap to help you prepare for the Atlassian Frontend Software Engineer role:</p>
+          <ul>
+            <li><strong>Master JavaScript (ES6+):</strong> Learn modern JS features.</li>
+            <li><strong>Learn React:</strong> Focus on hooks, lifecycle, and state management.</li>
+            <li><strong>Understand Webpack & Other Bundlers:</strong> Learn how to optimize builds.</li>
+            <li><strong>Get Comfortable with Testing:</strong> Write unit tests (with Jest) and end-to-end tests (with Cypress).</li>
+            <li><strong>Learn Version Control:</strong> Understand Git basics and advanced features like branching, merging, and rebasing.</li>
+            <li><strong>Agile Methodologies:</strong> Understand Agile practices, especially in a remote setting.</li>
+            <li><strong>Study Best Practices:</strong> Learn about scalable architecture, design patterns, and writing maintainable code.</li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><i class="fas fa-home"></i> Home</li>
+          <li><i class="fas fa-user-alt"></i> About</li>
+          <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+      </nav>
+      
+<script src="script.js"></script>
 </body>
-
 </html>
