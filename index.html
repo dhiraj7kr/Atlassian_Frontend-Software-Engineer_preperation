@@ -1,157 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Development Interactive Demo</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atlassian Frontend Engineer Preparation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Frontend Development Interactive Demo</h1>
-    <p>Learn the basics of JavaScript, HTML, and CSS through interactive examples.</p>
-  </header>
+    <header>
+        <h1>Atlassian Frontend Software Engineer Preparation</h1>
+        <p class="description">A guide to mastering the core skills for the Atlassian Frontend Engineer role.</p>
+    </header>
 
-  <main>
-    <!-- JavaScript Demo Section -->
-    <section id="js-demo">
-      <h2>JavaScript (ES6+) Examples</h2>
+    <main>
+        <section class="content">
+            <article>
+                <h2>1. Core Frontend Technologies</h2>
+                <p>This includes proficiency in JavaScript (ES6+), HTML5, and modern CSS techniques.</p>
+                <div class="code-section">
+                    <h3>Example: JavaScript Arrow Function</h3>
+                    <pre><code class="code-block">
+const greet = name => `Hello, ${name}!`;
+console.log(greet('Atlassian'));
+                    </code></pre>
+                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
+                </div>
 
-      <div class="code-block">
-        <h3>1. Variables (let, const, var)</h3>
-        <pre id="js-vars-code">
-let name = "John";  // Can be reassigned
-const age = 30;     // Cannot be reassigned
-name = "Jane";      // Valid
-// age = 31;         // Error: Assignment to constant variable
-console.log(name);  // Output: "Jane"
-console.log(age);   // Output: 30
-        </pre>
-        <button class="copy-btn" onclick="copyCode('js-vars-code')">Copy Code</button>
-      </div>
-
-      <div class="code-block">
-        <h3>2. Functions (Arrow functions, Regular functions)</h3>
-        <pre id="js-functions-code">
-function greet(name) {
-  return \`Hello, \${name}\`;
-}
-
-const greetArrow = (name) => \`Hello, \${name}\`;
-
-console.log(greet("John"));      // "Hello, John"
-console.log(greetArrow("Jane")); // "Hello, Jane"
-        </pre>
-        <button class="copy-btn" onclick="copyCode('js-functions-code')">Copy Code</button>
-      </div>
-
-      <div class="code-block">
-        <h3>3. Asynchronous JS (Promises, async/await)</h3>
-        <pre id="js-async-code">
-function fetchData() {
-  return new Promise((resolve) => {
-    setTimeout(() => resolve("Data fetched!"), 2000);
-  });
-}
-
-async function fetchDataAsync() {
-  const data = await fetchData();
-  console.log(data); // Output: "Data fetched!"
-}
-
-fetchDataAsync();
-        </pre>
-        <button class="copy-btn" onclick="copyCode('js-async-code')">Copy Code</button>
-      </div>
-
-      <div class="code-block">
-        <h3>4. Destructuring</h3>
-        <pre id="js-destructuring-code">
-const person = { name: "John", age: 30, occupation: "Developer" };
-
-const { name, age } = person;
-
-console.log(\`Name: \${name}, Age: \${age}\`);  // Output: "Name: John, Age: 30"
-        </pre>
-        <button class="copy-btn" onclick="copyCode('js-destructuring-code')">Copy Code</button>
-      </div>
-    </section>
-
-    <!-- CSS Demo Section -->
-    <section id="css-demo">
-      <h2>CSS Layout Examples</h2>
-
-      <div class="code-block">
-        <h3>1. Box Model Example</h3>
-        <div class="box">This is a box (demonstrates the CSS box model)</div>
-        <pre id="css-box-code">
-.box {
-  width: 200px;
-  padding: 20px;
-  margin: 20px;
-  border: 5px solid #333;
-  background-color: lightblue;
-  text-align: center;
-}
-        </pre>
-        <button class="copy-btn" onclick="copyCode('css-box-code')">Copy Code</button>
-      </div>
-
-      <div class="code-block">
-        <h3>2. Flexbox Layout</h3>
-        <div class="flex-container">
-          <div class="flex-item">Item 1</div>
-          <div class="flex-item">Item 2</div>
-          <div class="flex-item">Item 3</div>
-        </div>
-        <pre id="css-flexbox-code">
-.flex-container {
+                <div class="code-section">
+                    <h3>Example: CSS Flexbox</h3>
+                    <pre><code class="code-block">
+.container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.flex-item {
-  flex: 1;
-  background-color: lightcoral;
+.item {
+  margin: 10px;
   padding: 20px;
-  text-align: center;
 }
-        </pre>
-        <button class="copy-btn" onclick="copyCode('css-flexbox-code')">Copy Code</button>
-      </div>
+                    </code></pre>
+                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
+                </div>
+            </article>
 
-      <div class="code-block">
-        <h3>3. CSS Grid Layout</h3>
-        <div class="grid-container">
-          <div class="grid-item">Grid Item 1</div>
-          <div class="grid-item">Grid Item 2</div>
-          <div class="grid-item">Grid Item 3</div>
-        </div>
-        <pre id="css-grid-code">
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  margin-top: 20px;
+            <article>
+                <h2>2. Modern JavaScript Frameworks</h2>
+                <p>React is the focus, but familiarity with other frameworks like Angular or Vue is beneficial.</p>
+                <div class="code-section">
+                    <h3>Example: React Component</h3>
+                    <pre><code class="code-block">
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>{count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
 }
+                    </code></pre>
+                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
+                </div>
+            </article>
 
-.grid-item {
-  background-color: lightgreen;
-  padding: 20px;
-  text-align: center;
-}
-        </pre>
-        <button class="copy-btn" onclick="copyCode('css-grid-code')">Copy Code</button>
-      </div>
-    </section>
-  </main>
+            <article>
+                <h2>3. Frontend Ecosystem</h2>
+                <p>Learn bundlers like Webpack, linters like ESLint, and testing frameworks like Jest and Cypress.</p>
+            </article>
 
-  <footer>
-    <p>&copy; 2024 Frontend Development Interactive Demo</p>
-  </footer>
+            <article>
+                <h2>4. Frontend Architecture</h2>
+                <p>Focus on component-based design and performance optimizations like lazy loading and code splitting.</p>
+            </article>
 
-  <script src="script.js"></script> <!-- Link to JS -->
+            <article>
+                <h2>5. Software Engineering Practices</h2>
+                <p>Familiarize yourself with Agile methodologies, CI/CD pipelines, and code reviews.</p>
+            </article>
+
+            <article>
+                <h2>6. Collaboration and Communication</h2>
+                <p>Effective communication with designers, managers, and engineers is crucial in a remote setting.</p>
+            </article>
+
+            <article>
+                <h2>7. Soft Skills and Mindset</h2>
+                <p>Focus on problem-solving, attention to detail, and writing maintainable code for the long term.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Your Name &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
 
+</html>
